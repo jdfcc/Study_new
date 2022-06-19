@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 
 //有序，可重复
+//可对指定位置元素修改
+
 public class listdemo1 {
 
     public static void main(String args[]){
