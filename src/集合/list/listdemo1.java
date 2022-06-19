@@ -1,6 +1,7 @@
-package 集合.Collection.list;
+package 集合.list;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 //有序，可重复
@@ -13,6 +14,11 @@ public class listdemo1 {
         l.add("world");
         l.add("hello");
 
-        System.out.println(l);
+        Iterator<String> l1=l.iterator();
+        while(l1.hasNext()){
+            String s=l1.next();
+            System.out.println(s);
+        }
+
     }
 }

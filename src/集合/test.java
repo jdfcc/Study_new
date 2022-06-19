@@ -1,4 +1,4 @@
-package 集合.Collection;
+package 集合;
 
 import java.util.*;
 
