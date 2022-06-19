@@ -15,6 +15,8 @@ public class Listdemo2 {
         System.out.println(l);
         l.add(1,"ak");//不能越界
         System.out.println(l);
+        l.remove(0);
+        System.out.println(l);
 
 
     }
