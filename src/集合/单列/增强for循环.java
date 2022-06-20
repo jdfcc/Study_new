@@ -21,6 +21,7 @@ public class 增强for循环 {
         li.add("Java");
         for(String s1:li){
             System.out.println(s1);
+
         }
 
     }
