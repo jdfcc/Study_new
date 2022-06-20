@@ -1,4 +1,4 @@
-package 集合.Collection.example;
+package 集合.单列.Collection.example;
 
 import java.util.*;
 public class test_a {

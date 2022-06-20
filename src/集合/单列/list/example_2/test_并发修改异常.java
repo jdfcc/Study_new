@@ -1,4 +1,4 @@
-package 集合.list.example_2;
+package 集合.单列.list.example_2;
 
 import java.util.ArrayList;
 import java.util.Iterator;

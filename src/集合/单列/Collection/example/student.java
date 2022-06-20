@@ -1,4 +1,4 @@
-package 集合.Collection.example;
+package 集合.单列.Collection.example;
 
 public class student{
     private String name;

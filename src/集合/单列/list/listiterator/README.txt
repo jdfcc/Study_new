@@ -1,0 +1,2 @@
+ListIterator遍历方式可从前到后也可以从后到前(hasnext&hasprevi)
+使用ListIterator的add方法不会引起并发修改异常(add方法会将实际修改值赋值给预期修改值)

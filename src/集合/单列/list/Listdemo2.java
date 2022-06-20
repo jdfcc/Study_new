@@ -1,4 +1,4 @@
-package 集合.list;
+package 集合.单列.list;
 
 import java.util.ArrayList;
 import java.util.List;

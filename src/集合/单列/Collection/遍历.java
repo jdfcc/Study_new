@@ -1,4 +1,4 @@
-package 集合.Collection;
+package 集合.单列.Collection;
 import java.util.*;
 
 public class 遍历 {

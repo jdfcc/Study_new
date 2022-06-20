@@ -1,4 +1,4 @@
-package 集合.list.listiterator;
+package 集合.单列.list.listiterator;
 
 import java.util.ArrayList;
 import java.util.List;
