@@ -8,10 +8,10 @@ public class test {
 
         LinkedList<student> link=new LinkedList<student>();
 
-        student s1=new student("Jack",4);
-        student s2=new student("Lucy",3);
+        student s1=new student("Jack",1);
+        student s2=new student("Lucy",2);
         student s3=new student("Kim",3);
-        student s4=new student("King",1);
+        student s4=new student("King",4);
 
         link.push(s1);
         link.push(s2);
@@ -25,13 +25,12 @@ public class test {
         for(int i=0;i< link.size();i++){
             student tem;
             tem=link.get(i);
-            if(tem==s2)
-                link.add(i,s4);
+            if(tem==s1)
+                link.add(s4);
         }
 
-        for(int i=0;i<link.size();i++){
-            student s=link.get(i);
-            System.out.println(s.getName()+" "+s.getAge()+" ");
+        for (student s : link) {
+            System.out.println(s.getName() + " " + s.getAge() + " ");
         }
     }
 }
