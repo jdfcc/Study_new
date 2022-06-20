@@ -1,4 +1,4 @@
-package 集合.list.example;
+package 集合.list.example_1;
 
 public class student {
     private String name;

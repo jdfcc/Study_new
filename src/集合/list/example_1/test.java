@@ -1,6 +1,4 @@
-package 集合.list.example;
-
-import 集合.Collection.遍历;
+package 集合.list.example_1;
 
 import java.util.ArrayList;
 import java.util.Iterator;
