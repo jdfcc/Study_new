@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class test {
+public class test_并发修改异常 {
     public static void main(String[] args) {
 
         List<String> l = new ArrayList<String>();
