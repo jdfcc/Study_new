@@ -16,15 +16,15 @@ public class test {
         Iterator<String> i=l.iterator();
         int num=0;
 
-        while(i.hasNext()){
-            num++;
-            String temp=i.next();
+        for(int nu=0;nu<l.size();nu++){
+            String temp=l.get(nu);
             if(temp.equals("World")){
-                l.add(num,"Javaee");
+                l.add("Javaee");
             }
 
         }
 
+        System.out.println(l);
 
 
     }
