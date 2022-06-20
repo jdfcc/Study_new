@@ -20,11 +20,18 @@ public class test {
         l.add(s1);
         l.add(s2);
         l.add(s3);
+        l.add(1,s4);
 
         Iterator<student> i=l.iterator();
-        while(i.hasNext()){
-            student a=i.next();
-            out(a);
+
+//        while(i.hasNext()){
+//            student a=i.next();
+//            out(a);
+//        }
+
+        for(int j=0;j<l.size();j++){
+            student z=i.next();
+            out(z);
         }
 
     }
