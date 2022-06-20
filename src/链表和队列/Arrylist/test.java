@@ -28,7 +28,7 @@ public class test {
             System.out.println(s.getName()+" "+s.getAge());
         }
         System.out.println("-------------");
-
+//nothing
         while (it.hasNext()){
             student s=it.next();
             System.out.println(s.getName()+" "+s.getAge());
