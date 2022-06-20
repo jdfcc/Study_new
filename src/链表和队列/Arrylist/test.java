@@ -1,8 +1,9 @@
 package 链表和队列.Arrylist;
 
+import 链表和队列.Linkedlist.student;
+
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
 
 public class test {
     public static void main(String[] args){
@@ -28,7 +29,7 @@ public class test {
             System.out.println(s.getName()+" "+s.getAge());
         }
         System.out.println("-------------");
-//nothing
+
         while (it.hasNext()){
             student s=it.next();
             System.out.println(s.getName()+" "+s.getAge());
