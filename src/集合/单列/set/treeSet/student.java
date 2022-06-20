@@ -28,8 +28,12 @@ public class student implements Comparable<student> {
 
     @Override
     public int compareTo( student s) {
-        int num;
-        num=this.age-s.age;//num=s2.age-s1.age
+        int num1,num2,num;
+        num1=this.age-s.age;//num=s2.age-s1.age
+        num2=this.name.compareTo(s.name);
+        num=num1;
+        if(num1==0)
+            num=num2;
         return num;
     }
 }
