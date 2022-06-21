@@ -1,9 +1,8 @@
-package 集合.单列.set.成绩排序;
+package 集合.单列.set.treeSet.成绩排序;
 
-import java.util.Set;
 import java.util.TreeSet;
 
-public class main {
+public class test {
     public static void main(String[] args){
         TreeSet<student> tre=new TreeSet<>();
 

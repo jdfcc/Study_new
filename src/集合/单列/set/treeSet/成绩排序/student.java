@@ -1,4 +1,4 @@
-package 集合.单列.set.成绩排序;
+package 集合.单列.set.treeSet.成绩排序;
 
 import org.jetbrains.annotations.NotNull;
 
