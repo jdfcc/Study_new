@@ -40,12 +40,11 @@ public class student implements Comparable<student>{
 
     @Override
     public int compareTo(@NotNull student o) {
-        int num,num1,num2;
-        num1=this.Math+this.Ch-o.Math-o.Ch;
-        num2=this.name.compareTo(o.name);
-        num=num1*-1;
-        if(num1==0)
-            num=num2;
+        int num;
+        num=this.Math+this.Ch-o.Math-o.Ch;
+        num=num*-1;
+        if(num==0)
+            num=this.name.compareTo(o.name);
         return num;
     }
 }
