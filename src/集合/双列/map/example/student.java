@@ -1,4 +1,4 @@
-package map.example;
+package 集合.双列.map.example;
 
 public class student {
     private String name;

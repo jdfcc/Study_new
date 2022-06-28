@@ -1,4 +1,4 @@
-package map.example;
+package 集合.双列.map.example;
 
 import java.util.HashMap;
 import java.util.Map;
