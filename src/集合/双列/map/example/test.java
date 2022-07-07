@@ -8,7 +8,7 @@ public class test {
     public static void main(String[] args) {
 
         student s1=new student("Lucy",100);
-        student s2=new student("Jack",99);
+        student s2=new student("Jack",66);
         student s3=new student("John",78);
 
         Map<String,Integer> map=new HashMap<>();

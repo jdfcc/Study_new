@@ -11,9 +11,11 @@ public class Demo_写 {
         byte [] b1="this is a test".getBytes();
 
 //        fou.write("\n".getBytes());
-        fou.write(b1);
+        fou.write(bte);
+
 //        fou.write(b1,1,6);
-//        在字节数组里面从指定位置写入多少个在fou里面
+//        在字节数组里面从指定位置写入多少个在fou里 面
         fou.close();
+
     }
 }
