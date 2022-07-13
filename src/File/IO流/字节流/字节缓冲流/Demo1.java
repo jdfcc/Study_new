@@ -1,4 +1,4 @@
-package File.IO流.字节缓冲流;
+package File.IO流.字节流.字节缓冲流;
 
 import java.io.*;
 
