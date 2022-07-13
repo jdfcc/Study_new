@@ -7,10 +7,10 @@ public class test_send {
     public static void main(String[] args) throws IOException {
         DatagramSocket socket=new DatagramSocket();
 //        创建Socket对象
-        byte[] byt="Hello Date!".getBytes();
+        byte[] byt="Hello Data!".getBytes();
         int len=byt.length;
         InetAddress address=InetAddress.getByName("192.168.159.1");
-        int port=20084;
+        int port=10086;
 
         DatagramPacket packet=new DatagramPacket(byt,len,address,port);
 //        数据打包
