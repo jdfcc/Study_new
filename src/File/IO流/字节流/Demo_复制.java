@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Demo_复制 {
     public static void main(String[] args) throws IOException {
         FileOutputStream ous=new FileOutputStream("E:\\test\\aim.txt");
-        FileInputStream ins=new FileInputStream("E:\\test\\source.txt");
+        FileInputStream ins=new FileInputStream("E:\\test\\source.txt.txt");
 
         ArrayList<Integer> lis=new ArrayList<>();
         int temp;

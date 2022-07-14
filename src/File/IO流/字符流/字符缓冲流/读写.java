@@ -4,7 +4,7 @@ import java.io.*;
 
 public class 读写 {
     public static void main(String[] args) throws IOException {
-        BufferedReader bre=new BufferedReader(new FileReader("E:\\test\\source.txt"));
+        BufferedReader bre=new BufferedReader(new FileReader("E:\\test\\source.txt.txt"));
         BufferedWriter bwr=new BufferedWriter(new FileWriter("E:\\test\\aim.txt"));
 
         char temp[]=new char[1024];

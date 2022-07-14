@@ -7,7 +7,7 @@ public class 读写 {
         FileWriter fwr= new FileWriter("E:\\test\\aim.txt");
 //        osw.write("哈哈哈");
 
-        FileReader fre=new FileReader("E:\\test\\source.txt");
+        FileReader fre=new FileReader("E:\\test\\source.txt.txt");
 //        int temp;
 //        while ((temp=isr.read())!=-1)
 //            osw.write(temp);

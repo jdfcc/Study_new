@@ -5,7 +5,7 @@ import java.io.*;
 public class Demo_Copy {
     public static void main(String[] args) throws IOException {
         BufferedOutputStream bou=new BufferedOutputStream(new FileOutputStream("E:\\test\\aim.mp4"));
-        BufferedInputStream bin=new BufferedInputStream(new FileInputStream("E:\\test\\source.mp4"));
+        BufferedInputStream bin=new BufferedInputStream(new FileInputStream("E:\\test\\source.txt.mp4"));
 
 //        int temp;
 //        while ((temp=bin.read())!=-1){

@@ -5,8 +5,8 @@ import java.io.*;
 public class Demo1 {
     public static void main(String[] args) throws IOException {
 
-        BufferedInputStream bin=new BufferedInputStream(new FileInputStream("E:\\test\\source.txt"));
-//        FileInputStream ins= new FileInputStream("E:\\test\\source.txt");
+        BufferedInputStream bin=new BufferedInputStream(new FileInputStream("E:\\test\\source.txt.txt"));
+//        FileInputStream ins= new FileInputStream("E:\\test\\source.txt.txt");
 //        BufferedInputStream bou=new BufferedInputStream(ins);
         int temp;
         while ((temp=bin.read())!=-1){

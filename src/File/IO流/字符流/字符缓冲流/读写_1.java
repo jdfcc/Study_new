@@ -5,7 +5,7 @@ import java.io.*;
 public class 读写_1 {
     public static void main(String[] args) throws IOException {
         BufferedWriter bfw=new BufferedWriter(new FileWriter("E:\\test\\aim.txt"));
-        BufferedReader bfr=new BufferedReader(new FileReader("E:\\test\\source.txt"));
+        BufferedReader bfr=new BufferedReader(new FileReader("E:\\test\\source.txt.txt"));
 
         String temp;
         while ((temp=bfr.readLine())!=null){

@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Demo_复制plus {
     public static void main(String[] args) throws IOException {
-        FileInputStream ins=new FileInputStream("E:\\test\\source.txt");
+        FileInputStream ins=new FileInputStream("E:\\test\\source.txt.txt");
         FileOutputStream ous=new FileOutputStream("E:\\test\\aim.txt");
         byte[] byt=new byte[1024];
         int temp;
